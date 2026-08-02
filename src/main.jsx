@@ -7,7 +7,7 @@ import Context from './class4/Q2/Context.jsx'
 
 createRoot(document.getElementById('root')).render(
     <BrowserRouter>
-    <Context.Provider value={'Arghyadip Maiti'}>
+    <Context.Provider value={'Welcome to react'}>
         <App/>
     </Context.Provider>
     </BrowserRouter>

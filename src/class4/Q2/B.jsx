@@ -9,6 +9,8 @@ const B = () => {
     <div>
         B
         <br />
+        ⬇️
+        <br />
         data:{data}
     </div>
   )

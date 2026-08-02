@@ -29,7 +29,7 @@ const App = () => {
 
       {/* class3 */}
       
-      <Router1/>
+      {/* <Router1/> */}
       {/* <Portfolio/> */}
       {/* <FoodMenu/> */}
       {/* <Company/> */}
@@ -37,7 +37,7 @@ const App = () => {
       {/* class4 */}
 
       {/* <DynamicRouting/> */}
-      {/* <PropsDrilling/> */}
+      <PropsDrilling/>
       
 
 

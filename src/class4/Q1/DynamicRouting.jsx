@@ -1,21 +1,21 @@
 import React from 'react'
-import { Link , Routes, Route} from 'react-router-dom'
-import Products from './Products'
-import About from './About'
-import ProductDetails from './ProductDetails'
+import { Link, Route, Routes } from 'react-router-dom'
+import Home from './Home'
+import StudentList from './StudentList'
+import StudentDetails from './StudentDetails'
 
 const DynamicRouting = () => {
   return (
-    <div>
-        <nav className='flex justify-between p-12 list-none text-4xl'>
-            <Link to='/p'><li>Products</li></Link>
-            <Link to='/'><li>About</li></Link>
-        </nav>
-        <Routes>
-            <Route path='/' element={<About/>}/>
-            <Route path='/p' element={<Products/>}/>
-            <Route path='/p/:id' element={<ProductDetails/>}/>
-        </Routes>
+    <div className='bg-cyan-400 h-screen p-9'>
+      <Link to='/'><button className='text-5xl rounded-full bg-cyan-700 h-20 w-20 flex justify-center items-center active:scale-95 cursor-pointer'>🏠</button></Link>
+      <br />
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/student' element={<StudentList/>}/>
+        <Route path='/student/:stuNo' element={<StudentDetails/>}/>
+      </Routes>
+      
+
     </div>
   )
 }
