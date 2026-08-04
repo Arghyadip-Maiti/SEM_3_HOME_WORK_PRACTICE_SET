@@ -55,7 +55,7 @@ const App = () => {
       {/* <Quantity/> */}
       {/* <TraficLight/> */}
       {/* <Cart/> */}
-      <LikeDislikeCount/>
+      {/* <LikeDislikeCount/> */}
 
       
       
