@@ -19,6 +19,11 @@ import TraficLight from './class5/Q2/TraficLight'
 import Cart from './class5/Q3/Cart'
 import LikeCount from './class1/Q5/LikeCount'
 import LikeDislikeCount from './class5/Q4/LikeDislikeCount'
+import MemoDemo from './class6/class/MemoDemo'
+import TaskLS from './class6/class/TaskLS'
+import Zepto from './class7/class/Zepto'
+import CompletedToDo from './class2/CompletedToDo'
+import ToDoTen from './class2/ToDoTen'
 
 const App = () => {
   return (
@@ -34,6 +39,9 @@ const App = () => {
       {/* <ColorChange/> */}
 
       {/* class2 */}
+
+      {/* <CompletedToDo/> */}
+      <ToDoTen/>
 
       {/* class3 */}
       
@@ -56,6 +64,15 @@ const App = () => {
       {/* <TraficLight/> */}
       {/* <Cart/> */}
       {/* <LikeDislikeCount/> */}
+
+      {/* class6 */}
+
+      {/* <MemoDemo/> */}
+      {/* <TaskLS/> */}
+
+      {/* class7 */}
+
+      {/* <Zepto/> */}
 
       
       
