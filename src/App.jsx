@@ -22,8 +22,10 @@ import LikeDislikeCount from './class5/Q4/LikeDislikeCount'
 import MemoDemo from './class6/class/MemoDemo'
 import TaskLS from './class6/class/TaskLS'
 import Zepto from './class7/class/Zepto'
-import CompletedToDo from './class2/CompletedToDo'
-import ToDoTen from './class2/ToDoTen'
+import ToDoTen from './class2/Q2/ToDoTen'
+import CompletedToDo from './class2/Q1/CompletedToDo'
+import FilterToDo from './class2/Q3/FilterToDo'
+
 
 const App = () => {
   return (
@@ -41,7 +43,9 @@ const App = () => {
       {/* class2 */}
 
       {/* <CompletedToDo/> */}
-      <ToDoTen/>
+      {/* <ToDoTen/> */}
+      {/* <FilterToDo/> */}
+      
 
       {/* class3 */}
       
